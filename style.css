@@ -1,0 +1,170 @@
+
+.z{
+    z-index: 1;
+}
+
+.px{
+    color: rgb(89, 255, 89);
+    padding-right: 15rem;
+    font-family: 'Roboto', sans-serif;
+}
+.px1{
+    color: rgb(13, 37, 65);
+    font-size: 4rem;
+    padding-right: 6rem;
+    font-family: 'Roboto', sans-serif;
+}
+.px2{
+    color: rgb(5, 36, 71);
+    font-size: 4rem;
+    padding-right: 7rem;
+    font-family: 'Roboto', sans-serif;
+}
+.btn{
+    background-color: rgb(71, 247, 71);
+    margin-right: 15rem;
+}
+.a{
+    color: rgb(82, 191, 235);
+}
+.p2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.img1{
+    border-radius: 50%;
+    height: 18rem;
+   
+}
+.img2{
+    border-radius: 50%;
+     height: 18rem;
+    
+    margin-left: 5rem;
+}
+.i1{
+    border-radius: 5rem;
+}
+.back1{
+    background-image: url(./aX87kl.webp);
+    height: 60vh;
+    background-size: cover;
+    background-position:center;
+    position: relative;
+    background-color: rgba(43, 105, 36, 0.377);
+    margin-top: 5rem;
+}
+.back1::after{
+    content: ' ';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+}
+.z{
+    z-index: 4;
+}
+.p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.p1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.img3{
+    border-radius: 50%;
+    height: 18rem;
+    transition: all 2s ease-in-out;
+    
+}
+ .img3:hover  {
+        transform: scale(1.1);
+      cursor: pointer;
+  }
+  .img4:hover  {
+    transform: scale(1.1);
+     cursor: pointer;
+}
+
+.q{
+    color: rgb(106, 245, 106);
+}
+.btn1{
+    background-color: rgb(71, 247, 71);
+    border-radius: 5rem;
+}
+.card{
+    background-color: rgb(218, 212, 212);
+}
+.c1{
+    background-color: rgb(69, 173, 69);
+}
+.cb1{
+    background-color: rgb(78, 202, 252);
+}
+.img4:hover  {
+    transform: scale(1.1);
+     cursor: pointer;
+}
+
+.back2{
+    background-image: url(./photo-009.jpg);
+    height: 60vh;
+    background-size: cover;
+    background-position:center;
+    position: relative;
+    background-color: rgba(22, 39, 20, 0);
+    margin-top: 5rem;
+}
+.back2::after{
+    content: ' ';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+@media screen and (max-width:768px) {
+    .image{
+        height: 15rem;
+        padding-top: 2rem;
+    }
+    .img1{
+        height: 13rem;
+       
+        /* display: none; */
+        
+    }
+    .img2{
+        height: 13rem;
+        
+        /* display: none; */
+
+    }
+    .ab1{
+        padding-left: 7rem;
+    }
+    .ab{
+        padding-left: 2rem;
+    }
+    .back1{
+        margin-top: 5rem;
+        height: 130vh;
+    }
+    .img3{
+        margin-top: 3rem;
+        margin-left: 4rem;
+     
+    }
+    .icon3{
+       margin-left: 3rem;
+    }
+    .card4{
+        margin-top: 3rem;
+        margin-left: 2rem;
+    }
+    .btn1{
+        margin-left: 4rem;
+    }
+}
